@@ -23,7 +23,7 @@ dependencies {
   ```
   
 ## Example Usage 1 (Simple)
-#### XML
+### XML
 
 ```
 <com.example.movingtextview.MovingTextView
@@ -38,11 +38,11 @@ dependencies {
          android:id="@+id/txt"
          android:textSize="20sp"   />
 ```
-#### Demo
+### Demo
 
 <div align="center"><img src="pic.gif"/></div>
 
-##### Java
+### Java
 
 ```
  String str[]={"str","tgg","ff","efwef"};
