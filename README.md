@@ -68,7 +68,7 @@ dependencies {
         <attr name="stylebold" format="boolean"/>
 ```
 
-######License
+###### License
 This library is composed by other open source libraries, if used, must include all the license files.
 
 ```
