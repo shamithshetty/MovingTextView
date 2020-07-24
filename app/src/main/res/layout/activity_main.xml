@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <Button
+         android:id="@+id/btnstart"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Start"
+         android:onClick="MyclickStart"
+         android:textColor="#ffffff"
+         android:layout_margin="60dp"
+         android:background="@drawable/btnstyle" />
+     <Button
+         android:onClick="MyclickStop"
+         android:layout_alignParentEnd="true"
+         android:id="@+id/btnstop"
+         android:textColor="#ffffff"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="stop"
+         android:layout_margin="60dp"
+         android:background="@drawable/btnstyle" />
+
+     <com.example.movingtextview.MovingTextView
+         app:movingtext="@array/examples"
+         app:startstring="shetty"
+         app:startcolor="#cc320bdf"
+         app:duration="1000"
+         app:movingcolor="#e70d0d"
+         app:stylebold="true"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/txt"
+         android:textSize="20sp"
+         android:layout_marginLeft="50dp"
+         android:layout_below="@+id/btnstart" />
+
+</RelativeLayout>

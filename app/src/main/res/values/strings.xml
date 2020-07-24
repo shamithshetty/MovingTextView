@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovingTextViewExample</string>
+    <string-array name="examples">
+        <item>Microsoft (United States)</item>
+        <item>Berkshire Hathaway</item>
+        <item>Tencent Holdings</item>
+        <item>Alibaba (China)</item>
+        <item>Berkshire Hathaway</item>
+        <item>Saudi Arabian Oil Company</item>
+    </string-array>
+</resources>

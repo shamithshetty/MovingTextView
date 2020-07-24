@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="Textview">
+        <attr name="movingtext" format="string" />
+        <attr name="startstring" format="string"/>
+        <attr name="startcolor" format="color|reference"/>
+        <attr name="movingcolor" format="color|reference"/>
+        <attr name="duration" format="integer"/>
+        <attr name="stylebold" format="boolean"/>
+    </declare-styleable>
+</resources>
