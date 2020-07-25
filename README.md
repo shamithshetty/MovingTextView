@@ -18,7 +18,7 @@ allprojects {
 Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.shamithshetty:MovingTextView:Tag'
+	        implementation 'com.github.shamithshetty:MovingTextView:1.0'
 	}
   ```
   
